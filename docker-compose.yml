@@ -1,0 +1,13 @@
+version: '3'
+services:
+  frontend:
+    build: ./frontend/vue
+    ports:
+      - "8080:80"  # Mapping localhost:8080 to the container's port 80
+    depends_on:
+      - backend  # Ensures the backend starts first
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
