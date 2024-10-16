@@ -1,5 +1,5 @@
 Docker start:
-- `cd` to `/CodeBros` => `docker-compose up -d`
+- `cd` to /Rec-It => `docker-compose up -d`
 
 Python venv:
 - (bash terminal)
